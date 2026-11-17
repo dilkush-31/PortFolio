@@ -73,6 +73,14 @@ const projects = [
     ],
     github: "https://github.com/dilkush-31",
   },
+  {
+  title: "CollabFlow – Collaborative Project Management Tool",
+  description: "Full-stack project management app with JWT authentication, role-based access, a Kanban board, task comments, and real-time updates using Socket.IO.",
+  tech: ["React", "Vite", "Node.js", "Express", "MySQL", "Socket.IO", "JWT"],
+  liveUrl: "https://collab-flow-s53n.vercel.app",
+  githubUrl: "https://github.com/dilkush-31/CollabFlow",
+  image: "/collabflow.png"
+},
 ];
 
 function App() {
