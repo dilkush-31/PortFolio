@@ -74,11 +74,19 @@ const projects = [
     github: "https://github.com/dilkush-31",
   },
   {
-  title: "CollabFlow – Collaborative Project Management Tool",
-  description: "Full-stack project management app with JWT authentication, role-based access, a Kanban board, task comments, and real-time updates using Socket.IO.",
-  tech: ["React", "Vite", "Node.js", "Express", "MySQL", "Socket.IO", "JWT"],
-  liveUrl: "https://collab-flow-s53n.vercel.app",
-  githubUrl: "https://github.com/dilkush-31/CollabFlow",
+    title: "CollabFlow – Collaborative Project Management Tool",
+    date: "Nov 2026",
+    tech: "React • Vite • Node.js • Express • MySQL • Socket.IO • JWT",
+    description:
+      "A full-stack project management app with role-based access, a live Kanban board, task comments, and real-time notifications.",
+    points: [
+      "Built JWT authentication with bcrypt and role-based access control for admin, project manager, and team member roles.",
+      "Developed a Kanban board with priorities, deadlines, and assignees, with live updates using Socket.IO.",
+      "Designed a 7-table MySQL schema with foreign keys and SQL dashboard analytics for overdue tasks and project progress.",
+      "Deployed the frontend on Vercel, the backend on Render, and the database on Aiven MySQL with SSL.",
+    ],
+    github: "https://github.com/dilkush-31/CollabFlow",
+    live: "https://collab-flow-s53n.vercel.app",
   image: "/collabflow.png"
 },
 ];
